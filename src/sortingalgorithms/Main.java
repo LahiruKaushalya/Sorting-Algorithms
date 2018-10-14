@@ -17,7 +17,7 @@ public class Main {
      */
     public static void main(String[] args) {
         
-        List<Integer> data = generate(60000);
+        List<Integer> data = generate(100000);
         
         Soter = new BubbleSort(data);
         Soter.sort();
@@ -31,6 +31,9 @@ public class Main {
         Soter.sort();
         //Soter.printData();
         
+        Soter = new MergeSort(data);
+        Soter.sort();
+        //Soter.printData();
     }
     
     private static List<Integer> generate(int amount){
