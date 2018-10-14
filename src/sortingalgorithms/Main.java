@@ -27,6 +27,10 @@ public class Main {
         Soter.sort();
         //Soter.printData();
         
+        Soter = new SelectionSort(data);
+        Soter.sort();
+        //Soter.printData();
+        
     }
     
     private static List<Integer> generate(int amount){
